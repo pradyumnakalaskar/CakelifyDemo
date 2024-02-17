@@ -1,0 +1,54 @@
+.ForMobile {
+  display: none;
+}
+.cart-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.custom-nav-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.a-cart {
+  margin-top: 0.45rem;
+  margin-right: 0.25rem;
+}
+
+@media screen and (max-width: 600px) {
+  .ForDesktop {
+    display: none;
+  }
+
+  .ForMobile {
+    display: block;
+  }
+
+  #products_heading {
+    text-align: center;
+  }
+
+  .cardProduct {
+    width: 155px;
+    min-width: 150px;
+    box-shadow: none;
+    padding: 8px;
+    background: #fff;
+    margin: 0 5.1px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-2 {
+    display: flex;
+    justify-content: center;
+    padding-left: rem;
+    padding-top: 2rem;
+  }
+}
